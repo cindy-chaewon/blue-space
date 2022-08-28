@@ -1,0 +1,276 @@
+#side_right {
+    float: right;
+    width: 23vw ;
+    height: 90vh ;
+    background-color: #fff;
+    position: relative;
+    
+    overflow-x: hidden;    
+}
+
+.team_make {
+    width: 100%;
+    height: 11vh;
+    background-color: #fff; 
+    border-top: 0.1px solid #E0E0E0; 
+    border-bottom: 0.1px solid #E0E0E0; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    /* flex를 줘서 가운데 정렬로 맞췄습니다. */
+}
+
+.team_img {
+    position: absolute; 
+    margin-left: 20px;
+    top: 30%;
+    width : 37px;
+    height: 37px;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamfolder_text {
+    position: absolute; 
+    margin-left: 75px;
+    padding: 0;
+    background: none;  
+    border: none; 
+    color: #4F4F4F; 
+    font-size: 25px; 
+    font-weight: 800;
+    top: 30%;
+
+}
+
+
+.img_button {
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position : absolute;
+    right : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 33%;
+}
+
+
+.teamfolder_board {
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    background-color: #fff; 
+    border: none; 
+    overflow : auto;
+}
+
+.teamfolder_item {
+    width : 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+.teamfolder_menu {
+    width : 100%;
+    height: 11vh;
+    /* 계산 필요함 */
+    margin:0;
+    border-bottom: 0.1px solid #E0E0E0;
+    border-top: 0.1px solid #E0E0E0;
+    position : relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.down_arrow {
+    position: absolute;
+    left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+}
+
+#hide_arrow {
+    visibility: hidden;
+}
+
+#show_arrow {
+    visibility : visible;
+}
+
+.team_profile {
+    position: absolute; 
+    left: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_profile:hover{
+    transition : all 0.2s linear;
+    opacity: 0.9;
+}
+
+.team_name {
+    position : absolute; 
+    left: 28%;
+    padding: 0;
+    background: none;  
+    border: none; 
+    color: #4F4F4F; 
+    font-size: 16px; 
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+/*팀 리스트 css*/
+.TeamList {
+    
+    width: 100%;
+    
+    height: 600px;
+    overflow-y:auto;
+    overflow-x : hidden;
+    /*border: 1px solid black;*/
+
+    
+}
+
+#teamsBoard {
+    position: absolute;
+    
+    width: 100%;
+    height: 600px;
+    overflow-y:auto;
+    overflow-x: hidden
+    /*border: 1px solid black;*/
+}
+
+
+.TeamListItem {
+    
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 70px;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 30px;
+    
+    
+
+}
+
+.text {
+    position: absolute;
+    color: #4F4F4F;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 53px;
+    top: 15px;
+    width: 200px;
+    
+    text-align: left;
+    overflow:hidden;
+}
+
+.settingBtn {
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+}
+
+.yellow {
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+
+}
+
+
+#hide_menu {
+    display: none;
+}
+
+/*#show_menu {
+    background: #fff;
+}*/
+
+
+
+.sub_folderlist {
+    background-color: #F6F9FD;
+    list-style-type : disc;
+    /*border: 1px solid black;*/
+    overflow-y: auto;
+    overflow-x:hidden;
+    height: 300px;
+}
+
+.add_folder {
+    position: absolute;
+    /*margin-left: 100px;*/
+    right: 5%;
+    top: 23px;
+    
+    cursor: pointer;
+
+}
+
+.TeamListItem #sub_folder {
+    background-color: #F6F9FD;
+    position: absolute;
+    margin-top: 40px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border: 1px solid black;
+    height:400px;
+    width: 100%;
+
+}
+.MyFolderItem{
+    position: absolute;
+    position: relative;
+    background: none;
+    border-bottom: 1px solid #bdbdbd;
+    overflow-x:hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.textid {
+    position: absolute;
+    font-size: 18px;
+    color: #4F4F4F;
+    margin-left: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left : 25px;
+    width: 270px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.teamfoldertrash {
+    top: 20%;
+    position: absolute;
+    right : 5%;
+}

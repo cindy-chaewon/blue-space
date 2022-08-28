@@ -1,0 +1,263 @@
+/*@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+   
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.searchTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+
+    display: flex;
+}
+
+.searchKey {
+    color: #267DFF;
+}
+
+.container {
+    margin-top: 33px;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.searchInfoTitle {
+    color: #4F4F4F;
+    font-size: 12px;
+
+    display: flex;
+    padding: 20px 0 16px 7px;
+    margin: 0 12px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.fileInfoTitle {
+    width: 36.5%;
+    display: flex;
+
+}
+
+.uploaderInfoTitle {
+    width: 14%;
+
+
+}
+
+.dateInfoTitle {
+    width: 25.8%;
+
+}
+
+.sizeInfoTitle {
+    width: 11.8%;
+}
+
+
+.searchInfo {
+    color: black;
+    font-size: 12px;
+
+    display: flex;
+    padding: 20px 0 16px 7px;
+    margin: 0 12px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.fileInfo {
+    width: 36.5%;
+    display: flex;
+    align-items: center;
+}
+
+.fileName {
+    margin-left: 16px;
+}
+
+.uploaderInfo {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploaderImg {
+    width: 27px;
+    height: 27px;
+
+}
+
+.dateInfo {
+    width: 25.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizeInfo {
+    width: 11.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trashIcon {
+    margin-left: 24px;
+}*/
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.searchTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+
+    display: flex;
+}
+
+.searchKey {
+    color: #267DFF;
+}
+
+.container {
+    margin-top: 33px;
+    height: 100%;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.searchInfoTitle {
+    color: #4F4F4F;
+    font-size: 12px;
+
+    display: flex;
+    padding: 20px 0 16px 7px;
+    margin: 0 12px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.fileInfoTitle {
+    width: 36.5%;
+    display: flex;
+
+}
+
+.uploaderInfoTitle {
+    width: 14%;
+
+
+}
+
+.dateInfoTitle {
+    width: 25.8%;
+
+}
+
+.sizeInfoTitle {
+    width: 11.8%;
+}
+
+
+.searchInfo {
+    color: black;
+    font-size: 12px;
+
+    display: flex;
+    padding: 20px 0 16px 7px;
+    margin: 0 12px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.fileInfo {
+    width: 36.5%;
+    display: flex;
+    align-items: center;
+}
+
+.fileName {
+    margin-left: 16px;
+}
+
+.uploaderInfo {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploaderImg {
+    width: 27px;
+    height: 27px;
+
+}
+
+.dateInfo {
+    width: 25.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizeInfo {
+    width: 11.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trashIcon {
+    margin-left: 24px;
+}

@@ -1,0 +1,109 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.bookmarkTitle {
+    margin : 0 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+
+    display: flex;
+}
+
+.bookmarkContainer {
+    margin-top : 20px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    width : 100%;
+    color : #4f4f4f;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom : 30px;
+    overflow: scroll;
+    max-height: 470px;
+    -ms-overflow-style: none; /* IE and Edge */ 
+    scrollbar-width: none; /* Firefox */
+}
+
+.bookmarkContainer::-webkit-scrollbar {
+    display: none;   
+}
+
+.bookmarkInfoTitle {
+    width : 100%;
+    height: 50px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    position : relative;
+}
+
+.bookmarkInfoTitle div {
+    position : absolute;
+    text-align: center;
+}
+
+.fileInfoTitle {left : 20px;}
+.uploaderInfoTitle {left : 280px;}
+.dateInfoTitle {left : 410px;}    
+.sizeInfoTitle {left : 530px;}
+
+
+
+.bookmark_item {
+    width: 100%;
+    height : 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position : relative;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: content-box;
+}
+
+.bookmark_item div {
+    position : absolute;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    top : 0;
+    bottom : 0;
+}
+
+
+.file_type {left : 17px;}
+.file_name {left : 68px;}
+.file_uploader {left : 272px; width : 50px;}
+.file_date {left : 397px; width : 50px;}
+.file_size {left : 533px; width : 50px;}
+
+.bookmarkIcon {
+    left : 640px; 
+    width : 50px;
+    position : absolute;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    top : 0;
+    bottom : 0;
+}
+

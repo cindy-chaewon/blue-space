@@ -1,0 +1,46 @@
+#contentsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerName {
+    font-size: 24px;
+}
+
+#headerName2 {
+    font-size: 24px;
+    color: #828282;
+}
+
+#headerName3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+#headerSort {
+    margin-right: 25px;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    border: 0.75px solid #BDBDBD;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.sort {
+    width: 65px;
+    color: #828282;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sortOnCategory {
+    height: 100%;
+    color: white;
+    background-color: #2F80ED;
+    border-radius: 26px;
+}

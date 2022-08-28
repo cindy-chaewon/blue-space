@@ -1,0 +1,122 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+/* 
+html, body {
+    margin: 0;
+    border : 0;
+}
+ */
+
+/* * {
+    font-family: 'NanumSquare', sans-serif;
+} */
+
+/*콘텐츠 영역*/
+
+.container {
+    width: 740px;
+    margin: 32px auto;
+    text-align: center;
+  }
+  
+.label {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.label--hover{
+    border: 1.5px solid #2F80ED;
+}  
+
+.inner {
+  width: 100%;
+  height: 128px;
+  margin: 64px auto;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #BDBDBD;
+  line-height: 128px;
+  background-color: white;
+  border: 1.5px dashed #2F80ED;
+  box-shadow: 0 0 10px #267DFF;
+}
+
+.inner:hover{
+    border: 1.5px solid #2F80ED;
+}
+
+.ImgInput {
+    display: none;
+}
+
+.preview_container {
+    margin-bottom: 16px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 61px 12px;
+}
+
+.ImagePreview {
+    position: relative;
+    width: 176px;
+    height: 176px;
+}
+
+.ImagePreview>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.ImagePreview>img:hover {
+    opacity: .5;
+}
+
+.icon_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 11px;
+  font-size: 13px;
+}
+
+.TrashIcon, .StarIcon {
+    cursor: pointer;
+}
+
+.TrashIcon {
+    margin-left: 5px;
+}

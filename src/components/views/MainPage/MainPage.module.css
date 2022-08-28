@@ -1,0 +1,100 @@
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.recent_file {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recent_file_title {
+    margin-left : 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color : #000000;
+}
+
+.recent_file_list {
+    margin-top : 20px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    width : 100%;
+    color : #4f4f4f;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom : 30px;
+    overflow: scroll;
+    max-height: 470px;
+    -ms-overflow-style: none; /* IE and Edge */ 
+    scrollbar-width: none; /* Firefox */
+    
+}
+
+.recent_file_list::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.file_property {
+    width : 100%;
+    height: 50px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    position : relative;
+}
+
+.file_property div {
+    position : absolute;
+    text-align: center;
+}
+
+.file_title_type {left : 20px;}
+.file_title_uploader {left : 280px;}
+.file_title_date {left : 395px;}    
+.file_title_size {left : 515px;}
+.file_title_location {left : 650px;}
+
+.file_item {
+    width: 100%;
+    height : 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position : relative;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: content-box;
+}
+
+.file_item div {
+    position : absolute;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    top : 0;
+    bottom : 0;
+}
+
+.file_type {left : 17px;}
+.file_name {left : 68px;}
+.file_uploader {left : 270px; width : 50px;}
+.file_date {left : 375px; width : 60px;}
+.file_size {left : 500px; width : 80px;}
+.file_folder {left : 623px; width : 100px;}
+

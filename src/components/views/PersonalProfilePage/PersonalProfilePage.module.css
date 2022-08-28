@@ -1,0 +1,266 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /*padding : 30px 20px;*/
+    position: relative;
+    
+}
+
+#contents_wrap {
+    height : 100%;
+    /*margin : 0 4.5%;*/
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    /*position: relative;*/
+    position: relative;
+}
+
+.personalprofile {
+    border-radius : 70%;
+    overflow: hidden;
+    box-shadow: 0 0 12px #267dff;
+
+}
+
+
+#contents .profilediv {
+    position: absolute;
+    
+    top: 20px;
+    left : 355px;
+    
+}
+
+
+
+
+.ImgProfile {
+    display :none;
+    
+}
+
+
+
+.inner {
+    width:192px;
+    height:40px;
+    border-radius : 30px;
+    background-color: #267DFF;
+    position: relative;
+    
+    
+
+}
+
+
+.inner p {
+    width:192px;
+    height:44px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    
+    position: absolute;
+    top: 10%;
+    
+}
+
+#contents .personalbtn {
+    position: absolute;
+    left : 420px;
+    top: 400px;
+    
+    
+
+}
+
+#usernamereal {
+    position: absolute;
+    top: 330px;
+    left : 473px;
+    background: none;
+    font-size:32px;
+    font-weight: 700;
+    color:#4F4F4F;
+    
+}
+
+
+
+.nameform {
+    position: absolute;
+    top: 20%;
+    left:30px;
+    
+    height: 45px; 
+    width: 645px;
+    background-color: #ffffff;
+
+}
+
+.nametxt {
+    float: left;
+    position: absolute;
+    top: 5px; 
+    left: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 530;
+}
+
+.nameform input::placeholder {
+    color: black;
+    
+}
+
+.namebtn {
+    color: #fff;
+    width: 78px; 
+    height: 40px; 
+    background: #267DFF;
+    border: none;  border-radius: 10px; 
+    align-items: center; justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    top: 0;
+    right: 20px;
+    float: right;
+
+}
+
+
+
+.nameuser {
+    top: 10%;
+    left:30px;
+    position: absolute;
+    
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+}
+
+
+
+.emailform {
+    position: absolute;
+    top: 70%;
+    left: 30px;
+    
+    height: 45px; 
+    width: 650px;
+    background-color: #ffffff;
+}
+
+.emailtxt {
+    float: left;
+    position: absolute;
+    top: 5px; 
+    left: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 530;
+}
+
+.emailbtn {
+    color: #fff;
+    width: 78px; 
+    height: 40px; 
+    background: #267DFF;
+    border: none;  border-radius: 10px; 
+    align-items: center; justify-content: center; 
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    top: 0;
+    right: 20px;
+    float: right;
+}
+
+.emailform input::placeholder {
+    color: black;
+    
+}
+
+.emailuser {
+   
+    top:60%;
+    left: 30px;
+    position: absolute;
+    
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+}
+
+
+#contents .nameemail {
+    width: 720px;
+    height: 216px;
+    border: none;  border-radius: 20px; 
+    background-color: #fff;
+    position: relative;
+    position: absolute;
+    top: 515px;
+    left: 160px;;
+
+    
+}
+
+.nameemail .line {
+    width: 660px;
+    height: 1px;
+    position: absolute;
+    top:50%;
+    left: 30px;
+    background:#E0E0E0;
+}
+
+
+.logout{
+    position:absolute;
+    right: 17px;
+    top: 0;
+    
+    text-align: center;
+    
+    
+}
+
+.logoutbtn {
+    color: #267DFF;
+    font-size:16px;
+    font-weight: 500;
+    
+    text-align: center;
+    
+    
+    
+    
+}

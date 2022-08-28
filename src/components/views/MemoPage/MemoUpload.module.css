@@ -1,0 +1,121 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#contents {
+    overflow-y: scroll;
+    float: left;
+    width: 61%;
+    height: 90% ;
+    background-color: #EEF2F9;
+    padding : 30px 20px;
+}
+
+#contents_wrap {
+    height : 100%;
+    margin : 0 4.5%;
+    width : auto;
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.memoStore {
+    margin-top: 40px;
+}
+
+.MemoBtn {
+    width: 176px;
+    height: 176px;
+    border: 3px dashed #E0E0E0;
+    color: #E0E0E0;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+
+    float: left;
+    z-index: 3;
+}
+
+.MemoBtn:active {
+    background-color: #eeeeee;
+}
+
+
+.preview_container {
+    margin-bottom: 16px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 61px 12px;
+
+    position: relative;
+    bottom: 176px;
+    float: left;
+    z-index: 2;
+
+}
+
+.MemoPreview {
+    position: relative;
+    width: 176px;
+    height: 176px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px 16px 0 16px;
+}
+
+
+.TitleInput {
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    color : #333333;
+}
+
+.MemoTitle, .MemoText {
+    width: 144px;
+    border: none;
+    text-align: start;
+}
+
+.MemoText {
+    resize: none;
+}
+
+.MemoTitle:focus, .MemoText:focus {
+    outline: none;
+}
+
+.TextInput {
+    height: 90.4px;
+    font-size: 12px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.changeBtn {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    width : 30px;
+    display: block;
+    background-color: #267DFF;
+    color : #ffffff;
+    border-radius: 8px;
+
+}
+.TrashIcon {
+    margin-left: 5px;
+}
+
+.StarIcon, .TrashIcon {
+    cursor: pointer;
+}

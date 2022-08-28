@@ -1,0 +1,168 @@
+#side_left {
+    float: left;
+    width: 16vw;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    border-right : 1px solid #e0e0e0; 
+    overflow-x: hidden;
+}
+
+.helper_logo {
+    height: 10vh;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.helper_text {
+    padding: 0;
+    background: none;
+    border: none;
+    color: #267DFF;
+    font-size: 28px;
+    font-weight: 900;
+    
+}
+
+.menu_wrap{
+    width : 100%;
+    height: 90vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.myfolder {
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    padding : 24px;
+}
+
+.myfolder_btn, .favorites, .trashbin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor : pointer;
+    /* position: relative; */
+
+}
+
+.favorites, .trashbin {
+    margin-top: 24px;
+    padding : 24px;
+}
+
+.down_arrow {
+    margin-right : 8px;
+}
+
+.menu_img {
+    margin-right : 17px;
+}
+
+.menu_imgstar{
+    margin-left: 29.5px;
+    margin-right : 17px;
+}
+
+.menu_imgtrash{
+    margin-left: 29.5px;
+    margin-right : 17px;
+}
+
+.menu_title {
+    color : #828282;
+    font-size: 16px;
+    font-weight: 800;
+    margin-right: 10px;
+    /*display: flex;*/
+}
+
+.add_folder {
+    position : absolute;
+    margin-left: 56px;
+    top : 24px;
+
+}
+
+.sub_folderlist {
+    background-color: #F6F9FD;
+    /*list-style-type : disc;*/
+    border-top: 1px solid #bdbdbd;
+    overflow-y: auto;
+    overflow-x:hidden;
+    height: 300px;
+    
+}
+
+/*#show_menu {
+    display: block;
+}*/
+
+#hide_menu {
+    display: none;
+}
+
+#sub_folder {
+    position: absolute;
+    overflow-y:auto;
+    overflow-x:hidden;
+    
+    height: 300px;
+    width: 100%;
+}
+
+.MyFolderItem {
+    position: absolute;
+    position: relative;
+    background: none;
+    
+    overflow-x:hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.text {
+    width: 210px;
+    height : 100%;
+    position: absolute;
+    font-size: 18px;
+    color:#4F4F4F; 
+    margin-right: 100px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.trashbin_icon {
+    left : 20px;
+}
+
+.myfoldertrash{
+    position: absolute;
+    right: 10px;
+    top: 20%;
+}
+
+.button_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twenty_size {
+    width: 20px;
+    height: 20px;
+}
