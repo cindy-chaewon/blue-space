@@ -1,8 +1,7 @@
 # BLUE SPACE
 ![리드미1](https://user-images.githubusercontent.com/101500670/231401094-456cf2c0-b6db-4b73-b664-e9d5339191ea.png)
 
-
-
+<img width="550" alt="리드미2" src="https://user-images.githubusercontent.com/101500670/231401650-269c0a65-dc72-40ff-b466-4c0e7f480572.png">
 
 
 # Getting Started with Create React App
